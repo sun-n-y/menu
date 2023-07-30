@@ -1,3 +1,6 @@
+import get from './util/getElement.js';
+import showMenu from './util/showMenu.js';
+
 const menu = [
   {
     image:
@@ -90,3 +93,7 @@ const menu = [
     category: 'dinner',
   },
 ];
+
+window.addEventListener('DOMContentLoaded', () => {
+  showMenu(menu);
+});
