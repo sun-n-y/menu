@@ -96,6 +96,6 @@ const menu = [
 ];
 
 window.addEventListener('DOMContentLoaded', () => {
-  showBtns(menu);
   showMenu(menu);
+  showBtns(menu);
 });
