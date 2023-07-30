@@ -69,10 +69,9 @@ body {
 
 .single-item {
     margin: 0 2rem;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     row-gap: 1rem;
-    max-width: 450px;
+    max-width: 600px;
 }
 
 .item-title {
@@ -103,9 +102,15 @@ body {
 
 @media screen and (min-width:800px) {
     .single-item {
-        flex-direction: row;
+        grid-template-columns: 2fr 3fr;
         column-gap: 1rem;
-        max-width: 700px;
     }
+}
 
+@media screen and (min-width:1200px) {
+    .menu-container {
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
