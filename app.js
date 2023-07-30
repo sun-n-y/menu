@@ -82,7 +82,7 @@ const menu = [
   },
   {
     image:
-      'https://images.pexels.com/photos/1169004/pexels-photo-1169004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     name: 'steak dinner',
     price: '39.99',
     description:
