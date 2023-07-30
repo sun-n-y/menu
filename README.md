@@ -7,7 +7,7 @@
 - ### arrow funtions
 - ### flex box
 - ### css grid
-- ### refactoring usins modules
+- ### refactor using modules
 - ### media queries
 - ### hover pseudo elements
 - ### array reduce
