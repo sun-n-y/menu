@@ -1,5 +1,6 @@
 import get from './util/getElement.js';
 import showMenu from './util/showMenu.js';
+import showBtns from './util/showBtns.js';
 
 const menu = [
   {
@@ -95,5 +96,6 @@ const menu = [
 ];
 
 window.addEventListener('DOMContentLoaded', () => {
+  showBtns(menu);
   showMenu(menu);
 });
